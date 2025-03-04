@@ -4,10 +4,10 @@
                 <div class="row align">
                 <div class="col-md-2">
                   <div class="footer-image-wrapper">
-                    <img src="../img/amz-inventors-logo.webp" alt="">
+                    <img src="/assets/images/trademark-logo.png" alt="">
                   </div>
                         <h4 class="forange">Follow Us On</h4>
-                        <div class="icons1">
+                        <div class="icons1 logo">
                             <a href="https://www.facebook.com/amzinventors/" class="bi bi-facebook" target="_blank"></a>
                             <a href="https://www.instagram.com/amzinventors/" class="bi bi-instagram" target="_blank"></a>
                            </div>
@@ -33,7 +33,7 @@
                     <div class="col-md-4">
                         <h4 class="forange">Lets Talk</h4>
                         <ul class="contact-info">
-                            <li > <i class="bi bi-envelope"></i><a href="mailto:info@amzinventors.com" ><span>info@amzinventors.com</span></a></li>
+                            <li > <i class="bi bi-envelope"></i><a href="mailto:info@trademarkadvisor.com" ><span>info@trademarkadvisor.com</span></a></li>
                             <li><i class="bi bi-telephone"></i><a href="tel:+1 1111222233333">+1 1111222233333</a></li>
                             <li><i class="bi bi-geo-alt-fill"></i>Lorem ipsum dolor sit amet.</li>
                         </ul>
@@ -41,8 +41,8 @@
                     
                 </div>
                 <hr  class="horizontal-line">
-                <div class="mt-4 pb-4">
-                    <p>© 2024 Copyrights <span style="color: #fb2201;"><b>Amz Inventors</b></span> All Rights Reserved.</p>
+                <div class="copyright text-center">
+                    <p>© 2024 Copyrights <span style="color: #fb2201;"><b>Trademark Advisor</b></span> All Rights Reserved.</p>
                 </div>
             </div>
         </footer>
@@ -57,7 +57,7 @@
       </div>
       <h3>GET FREE Analysis</h3>
       <p>
-      At AMZ Inventors, we are committed to delivering outstanding service and support to our clients. Whether you have questions about our offerings, wish to collaborate, or need assistance, we are here to help.
+      At Trademark Advisor, we are committed to delivering outstanding service and support to our clients. Whether you have questions about our offerings, wish to collaborate, or need assistance, we are here to help.
       </p>
       </div>
     </div>
@@ -183,7 +183,7 @@ window.onclick = function(event) {
 <script type="text/javascript">
   $(document).ready(function(){
     $('.testimonial-card-slider').slick({
-      slidesToShow: 3,
+      slidesToShow: 2,
       slidesToScroll: 1,
       dots: false,
       arrows: true,

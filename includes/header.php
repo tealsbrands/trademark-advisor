@@ -1,6 +1,6 @@
 <nav class="navbar navbar-expand-lg navbar-light bg-light">
   <div class="container">
-    <a class="navbar-brand" href="    "><img src="../img/amz-inventors-logo.webp" alt=""></a>
+    <a class="navbar-brand" href="    "><img src="/assets/images/trademark-logo.png" alt=""></a>
     <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
       <span class="navbar-toggler-icon"></span>
     </button>
@@ -20,37 +20,37 @@
 
             <div class="custom-inner">
               <a href="amazon/"> <img src="../assets/images/navbar-amazon-pic.webp" alt="" class="img-fluid"> </a>
-              <li> <a class="dropdown-item" href="/amazon/" class="pt-2"> Trademark Registration
+              <li> <a class="dropdown-item" href="/trademark-registration/" class="pt-2"> Trademark Registration
 </a></li>
             </div>
 
             <div class="custom-inner  ">
               <a href="shopify/"><img src="../assets/images/navbar-shopify-image.webp" alt="" class="img-fluid"></a>
-              <li><a class="dropdown-item" href="shopify/" class="pt-2">Copyright Registration
+              <li><a class="dropdown-item" href="/copyright-registration/" class="pt-2">Copyright Registration
 </a></li>
             </div>
 
 
             <div class="custom-inner ">
               <a href="tiktok/"><img src="../assets/images/navbar-tiktok-image.webp" alt="" class="img-fluid"> </a>
-              <li><a class="dropdown-item" href="/walmart/" class="pt-2">Company Formation
+              <li><a class="dropdown-item" href="/company-formation/" class="pt-2">Company Formation
 </a></li>
             </div>
 
             <div class="custom-inner ">
               <a href="walmart/"> <img src="../assets/images/navbar-walmart-image - Copy.webp" alt="" class="img-fluid"></a>
-              <li><a class="dropdown-item" href="/tiktok/">E-Selling Platforms
+              <li><a class="dropdown-item" href="/e-selling/">E-Selling Platforms
 </a></li>
             </div>
             <div class="custom-inner ">
               <a href="walmart/"> <img src="../assets/images/navbar-walmart-image - Copy.webp" alt="" class="img-fluid"></a>
-              <li><a class="dropdown-item" href="/tiktok/">
+              <li><a class="dropdown-item" href="/trademark-search/">
               Trademark Search
              </a></li>
             </div>
             <div class="custom-inner ">
               <a href="walmart/"> <img src="../assets/images/navbar-walmart-image - Copy.webp" alt="" class="img-fluid"></a>
-              <li><a class="dropdown-item" href="/tiktok/">
+              <li><a class="dropdown-item" href="/web-design/">
            
               Web Design Services</a></li>
             </div>
@@ -77,7 +77,7 @@
     </div>
   </div>
 </nav>
-<div class="top-nav">
+<!-- <div class="top-nav">
   <div class="marquee-container">
     <marquee behavior="" direction="">
       <div class="marquee">
@@ -86,7 +86,7 @@
       </div>
     </marquee>
   </div>
-</div>
+</div> -->
 <div class="get-quote-buttons">
   <ul>
     <li>

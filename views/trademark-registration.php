@@ -1,4 +1,4 @@
-﻿<!DOCTYPE html>
+<!DOCTYPE html>
 <html>
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 
@@ -12,52 +12,15 @@
 </head>
 
 
-
-
 <body>
+
 
     <?php include('includes/header.php'); ?>
 
-
-    <section class="hero-section">
-
+    <section id="service-banner">
         <div class="container">
-            <div class="row align-items-center">
-                <div class="col-lg-7" data-aos="fade-right" data-aos-duration="2000">
-                    <div class="hero-sec-text">
-                        <h1 class="animated-text">
-                            Register Your Trademark with the USPTO for Just <span>$49!</span>
-                        </h1>
-                        <p>
-                            We help brands achieve success by optimizing every stage of the customer journey on Amazon, Shopify, walmart & eCommerce Marketplaces. From advertising & content optimization to account management & strategic consulting, we're a full-service agency focused on Amazon, Shopify and walmart optimization and management.
-                        </p>
-                        <ul>
-                            <li>
-                                Enter The Sales Wheel Quickly
-                            </li>
-                            <li>
-                                Get Initial Reviews & Boost Rankings
-                            </li>
-                            <li>
-                                Effective Indexation For Higher Conversions
-                            </li>
-                            <li>
-                                Dedicated Growth Manager
-                            </li>
-                            <li>
-                                Proven Organic Methods
-                            </li>
-                            <li>
-                                Safe & TOS Compliant Practices
-                            </li>
-                        </ul>
-                        <div class="hero-buttons">
-                            <a class="amz-button quote-button" href="javascript:;"><i class="fa-solid fa-comment"></i>Get Started</a>
-                            <a class="amz-button" href="#"> <i class="fa-solid fa-phone"></i>+1 222-345-6789</a>
-                        </div>
-                    </div>
-                </div>
-                <div class="col-lg-5" data-aos="fade-left" data-aos-duration="1500">
+            <div class="row">
+                <div class="col-md-6">
                     <div class="hero-form">
                         <div class="modal-lines">
                             <h2 class="modal-heading">Request an <span>Appointment</span></h2>
@@ -101,68 +64,18 @@
                         </form>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="sign-process">
-        <div class="container">
-            <div class="section-title text-center">
-                <h2>Hassle-Free & Fast <span>Registration</span></h2>
-                <p></p>
-            </div>
-            <div class="row">
-                <div class="col-sm-4">
-                    <div class="sign-process-item text-center">
-                        <img src="/assets/images/process-icon1.png" alt="" class="img-fluid">
-                        <h3><span>Register</span></h3>
-                        <p>Register with Your Trademark Information</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="sign-process-item text-center active">
-                        <img src="/assets/images/process-icon2.png" alt="" class="img-fluid">
-                        <h3><span>Submission</span></h3>
-                        <p>Our Expert Trademark Attorneys Will Organize Your Information</p>
-                    </div>
-                </div>
-                <div class="col-sm-4">
-                    <div class="sign-process-item text-center">
-                        <img src="/assets/images/process-icon3.png" alt="" class="img-fluid">
-                        <h3><span>Finished</span></h3>
-                        <p>Our Attorneys Will Submit Your Application.</p>
-                    </div>
-                </div>
-            </div>
-            <div class="quote-btn text-center">
-                <a class="amz-button quote-button" href="javascript:;"><i class="fa-solid fa-comment"></i>Get Started</a>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section id="about-us">
-        <div class="container">
-            <div class="row">
-                <div class="col-md-6">
-                    <div class="img-bg">
-                        <img src="/assets/images/about-us.jpg" alt="" class="img-fluid">
-                    </div>
-                </div>
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>Who <span>We Are</span></h2>
-                        <p>At Trademark Advisor, we have assembled a team of top industry-specific trademark attorneys in the USA to offer premium USPTO trademark registration services. With over 20 years of experience, we have consistently maintained a 100% satisfaction rate. Our expert guidance ensures a seamless trademark registration process with the USPTO, free from complications.</p>
-                        <ul class="about-us-list">
-                            <li>Over a Decade of Expertise</li>
-                            <li>More than 20 Best Attorney Awards Achieved</li>
-                            <li>100% Satisfaction Rate Maintained</li>
+                        <h2>Secure Your Trademark with<br> <span>USPTO for Only $49!</span></span></h2>
+                        <ul>
+                            <li>Fast & Hassle-Free Filing – Get Your USPTO Serial Number the Same Day</li>
+                            <li>Flexible Payments – Pay at Your Convenience</li>
+                            <li>Trusted by Many – 100% Satisfaction with Expert Trademark Attorneys</li>
                         </ul>
-                        <div class="btn-parent">
-                            <a href="#" class="bton">read more</a>
+                        <div class="hero-buttons">
+                            <a class="amz-button quote-button" href="javascript:;"><i class="fa-solid fa-comment"></i>Get Started</a>
+                            <a class="amz-button" href="#"> <i class="fa-solid fa-phone"></i>+1 222-345-6789</a>
                         </div>
-
                     </div>
                 </div>
             </div>
@@ -171,71 +84,64 @@
 
 
 
-    <section id="trademark-section">
+    <section id="trademark-service">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Expert Trademark <span>Registration Solutions</span></h2>
+                <h2>What Does <span>Copyright Protect</span>?</h2>
             </div>
-            <div id="main-row" class="row">
-                <div id="inner-row-1" class="row">
-                    <div class="col-md-6">
-                        <div class="text-wrapper">
-                            <h3>Trademark Registration & Renewals</h3>
-                            <p>Whether you're registering a new trademark or renewing an existing one, Trademark Advisor is your go-to solution. With a team of skilled trademark attorneys and a decade of experience, we specialize in seamless USPTO trademark filings.</p>
-                        </div>
+            <div class="row">
+                <div class="col-md-6">
+                    <div class="checklist">
+                        <img src="/assets/images/checked.png" alt="" class="img-fluid">
+                        <p>Books</p>
                     </div>
-                    <div class="col-md-6">
-                        <div class="img-bg">
-                            <img src="/assets/images/trademark-1.png" alt="" class="img-fluid">
-                        </div>
+                    <div class="checklist">
+                        <img src="/assets/images/checked.png" alt="" class="img-fluid">
+                        <p>Songs</p>
                     </div>
-                </div>
-                <div id="inner-row-2" class="row">
-                    <div class="col-md-6">
-                        <div class="img-bg">
-                            <img src="/assets/images/trademark-2.png" alt="" class="img-fluid">
-                        </div>
+                    <div class="checklist">
+                        <img src="/assets/images/checked.png" alt="" class="img-fluid">
+                        <p>Photos</p>
                     </div>
-                    <div class="col-md-6">
-                        <div class="text-wrapper">
-                            <h3>Trademark Search</h3>
-                            <p>A thorough trademark search is crucial for a successful registration. Before submitting your application to the USPTO, we conduct a comprehensive search for potential conflicts. If any issues are detected, we address them promptly to prevent delays in your application process.</p>
-                        </div>
+                    <div class="checklist">
+                        <img src="/assets/images/checked.png" alt="" class="img-fluid">
+                        <p>Art</p>
                     </div>
-                </div>
-                <div id="inner-row-3" class="row">
-                    <div class="col-md-6">
-                        <div class="text-wrapper">
-                            <h3>Comprehensive Documentation Solutions</h3>
-                            <p>Filing a USPTO trademark involves various legal documents, including the Trademark Statement of Use (SOU) and Office Action Response. We handle all these requirements on your behalf, ensuring a smooth and successful trademark registration process.</p>
-                        </div>
+                    <div class="checklist">
+                        <img src="/assets/images/checked.png" alt="" class="img-fluid">
+                        <p>Films</p>
                     </div>
-                    <div class="col-md-6">
-                        <div class="img-bg">
-                            <img src="/assets/images/trademark-3.png" alt="" class="img-fluid">
-                        </div>
+                    <div class="checklist">
+                        <img src="/assets/images/checked.png" alt="" class="img-fluid">
+                        <p>And Other Tangible Creative Works</p>
                     </div>
                 </div>
-            </div>
-        </div>
-    </section>
-
-
-
-    <section id="parallex-banner">
-        <div class="comtainer">
-            <div class="text-wrapper text-center">
-                <h2>$49 Expedited Filing Service</h2>
-                <p>We offer priority service with instant filing and seamless coordination. If you need to register your trademark <br> with the USPTO urgently, this expedited service is the perfect solution.</p>
-                <div class="btn-parent">
-                    <a class="amz-button quote-button" href="javascript:;"><i class="fa-solid fa-comment"></i>Get Started</a>
+                <div class="col-md-6">
+                    <div class="checklist">
+                        <img src="/assets/images/checked.png" alt="" class="img-fluid">
+                        <p>Brand Names & Slogans</p>
+                    </div>
+                    <div class="checklist">
+                        <img src="/assets/images/checked.png" alt="" class="img-fluid">
+                        <p>Inventions & Product Design</p>
+                    </div>
+                    <div class="checklist">
+                        <img src="/assets/images/checked.png" alt="" class="img-fluid">
+                        <p>Ideas Only (Not in Tangible Form)</p>
+                    </div>
+                    <div class="text-wrapper">
+                        <p>Safeguard Your Brand’s Identity with Comprehensive Trademark Protection for Your Name & Logo, Ensuring Exclusive Rights and Legal Security.</p>
+                        <span>See Our:</span>
+                    </div>
+                    <div class="btn-parent">
+                        <a href="#" class="bton">Trademark service</a>
+                    </div>
                 </div>
             </div>
         </div>
     </section>
 
 
-    <!-- TAB SECTON -->
     <section id="why-choose-us">
         <div class="container">
             <div class="why-choose-content text-center" data-aos="fade-right" data-aos-duration="2000">
@@ -268,9 +174,9 @@
                                 <div class="col-sm-3">
                                     <div class="plan-parent text-center">
                                         <h3>Gold</h3>
-                                        <h4 class="sale-rate">$49</h4>  
+                                        <h4 class="sale-rate">$49</h4>
                                         <h4 class="act-rate">$199</h4>
-                                        <p class="text-center price-quote">+ USPTO filing fee<br> 
+                                        <p class="text-center price-quote">+ USPTO filing fee<br>
                                             ($350)</p>
                                         <ul class="plan-list">
                                             <li>Case Review</li>
@@ -353,9 +259,9 @@
                                 <div class="col-sm-3">
                                     <div class="plan-parent text-center">
                                         <h3>Gold</h3>
-                                        <h4 class="sale-rate">$49</h4>  
+                                        <h4 class="sale-rate">$49</h4>
                                         <h4 class="act-rate">$199</h4>
-                                        <p class="text-center price-quote">+ USPTO filing fee<br> 
+                                        <p class="text-center price-quote">+ USPTO filing fee<br>
                                             ($350)</p>
                                         <ul class="plan-list">
                                             <li>Case Review</li>
@@ -438,9 +344,9 @@
                                 <div class="col-sm-3">
                                     <div class="plan-parent text-center">
                                         <h3>Gold</h3>
-                                        <h4 class="sale-rate">$49</h4>  
+                                        <h4 class="sale-rate">$49</h4>
                                         <h4 class="act-rate">$199</h4>
-                                        <p class="text-center price-quote">+ USPTO filing fee<br> 
+                                        <p class="text-center price-quote">+ USPTO filing fee<br>
                                             ($350)</p>
                                         <ul class="plan-list">
                                             <li>Case Review</li>
@@ -523,9 +429,9 @@
                                 <div class="col-sm-3">
                                     <div class="plan-parent text-center">
                                         <h3>Gold</h3>
-                                        <h4 class="sale-rate">$49</h4>  
+                                        <h4 class="sale-rate">$49</h4>
                                         <h4 class="act-rate">$199</h4>
-                                        <p class="text-center price-quote">+ USPTO filing fee<br> 
+                                        <p class="text-center price-quote">+ USPTO filing fee<br>
                                             ($350)</p>
                                         <ul class="plan-list">
                                             <li>Case Review</li>
@@ -610,15 +516,51 @@
         </div>
         </div>
     </section>
-    <!-- END TAB -->
+
+
+
+    <section id="copyright-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Copyright <span>Protection</span> Services</h2>
+            </div>
+            <div id="main-row" class="row">
+                <div id="inner-row1" class="row">
+                    <div class="col-md-6">
+                        <div class="img-bg">
+                            <img src="/assets/images/abc1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-wrapper">
+                            <h3>Trademark <span>Filing & Renewals</span></h3>
+                            <p>Whether you need to register a new trademark or renew an existing one, Trademark Advisor is your go-to solution. With a team of expert trademark attorneys and a decade of experience, we ensure seamless USPTO trademark filings.</p>
+                        </div>
+                    </div>
+                </div>
+                <div id="inner-row2" class="row">
+                    <div class="col-md-6">
+                        <div class="text-wrapper">
+                            <h3>Comprehensive <span>Trademark Search</span></h3>
+                            <p>A thorough trademark search is essential for a successful registration. Before submitting your application to the USPTO, we identify potential conflicts in the database. If any issues arise, we address them promptly to prevent delays in your application process.</p>
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="img-bg">
+                            <img src="/assets/images/abc2.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
 
     <!-- testimonial -->
     <?php include_once("testimonial-global.php") ?>
     <!-- testimonial -->
+
+
     <?php include('includes/footer.php'); ?>
+
 </body>
-
-
-
-
-</html>
