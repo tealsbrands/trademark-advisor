@@ -122,7 +122,7 @@ curl_setopt_array($curl, array(
 <html lang="en-US">
 <meta http-equiv="content-type" content="text/html;charset=UTF-8" />
 <head>
-  <title>Pro Book Publishing Secure Payment</title>
+  <title>Trademark Advisor Secure Payment</title>
     <meta name="description" content=""> 
    
  
