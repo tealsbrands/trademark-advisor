@@ -180,4 +180,39 @@ window.onclick = function(event) {
   })
 </script>
 
-
+<script type="text/javascript">
+  $(document).ready(function(){
+    $('.testimonial-card-slider').slick({
+      slidesToShow: 3,
+      slidesToScroll: 1,
+      dots: false,
+      arrows: true,
+      prevArrow: '<button type="button" class="slick-prev">❮</button>',
+      nextArrow: '<button type="button" class="slick-next">❯</button>',
+      responsive: [
+        {
+          breakpoint: 1025,  // Tablet size and above
+          settings: {
+            slidesToShow: 2,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 768,  // Mobile size
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+          }
+        },
+        {
+          breakpoint: 480,  // Extra small mobile devices
+          settings: {
+            slidesToShow: 1,
+            slidesToScroll: 1,
+            arrows: true,  // Hide arrows on very small screens
+          }
+        }
+      ]
+    });
+  });
+</script>
