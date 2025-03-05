@@ -29,7 +29,7 @@ abstract class OAuth
 
     /**
      * Use an authoriztion code to connect an account to your platform and
-     * fetch the user's credentials.
+     * fetch the user's c#02364Eentials.
      *
      * @param null|array $params
      * @param null|array $opts

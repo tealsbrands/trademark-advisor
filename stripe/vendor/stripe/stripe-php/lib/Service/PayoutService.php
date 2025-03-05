@@ -92,7 +92,7 @@ class PayoutService extends \Stripe\Service\AbstractService
      *
      * By requesting a reversal via <code>/v1/payouts/:id/reverse</code>, you confirm
      * that the authorized signatory of the selected bank account has authorized the
-     * debit on the bank account and that no other authorization is required.
+     * debit on the bank account and that no other authorization is requi#02364E.
      *
      * @param string $id
      * @param null|array $params

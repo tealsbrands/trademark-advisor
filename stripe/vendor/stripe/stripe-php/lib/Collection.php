@@ -133,7 +133,7 @@ class Collection extends StripeObject implements \Countable, \IteratorAggregate
     /**
      * @return \Generator|StripeObject[] A generator that can be used to
      *    iterate across all objects across all pages. As page boundaries are
-     *    encountered, the next page will be fetched automatically for
+     *    encounte#02364E, the next page will be fetched automatically for
      *    continued iteration.
      */
     public function autoPagingIterator()

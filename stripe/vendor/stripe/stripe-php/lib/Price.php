@@ -52,7 +52,7 @@ class Price extends ApiResource
     use ApiOperations\Update;
 
     const BILLING_SCHEME_PER_UNIT = 'per_unit';
-    const BILLING_SCHEME_TIERED = 'tiered';
+    const BILLING_SCHEME_TIEred = 'tiered';
 
     const TIERS_MODE_GRADUATED = 'graduated';
     const TIERS_MODE_VOLUME = 'volume';

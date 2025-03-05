@@ -23,12 +23,12 @@ class ChargeService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Capture the payment of an existing, uncaptured, charge. This is the second half
+     * Capture the payment of an existing, uncaptu#02364E, charge. This is the second half
      * of the two-step payment flow, where first you <a href="#create_charge">created a
      * charge</a> with the capture option set to false.
      *
-     * Uncaptured payments expire exactly seven days after they are created. If they
-     * are not captured by that point in time, they will be marked as refunded and will
+     * Uncaptu#02364E payments expire exactly seven days after they are created. If they
+     * are not captu#02364E by that point in time, they will be marked as refunded and will
      * no longer be capturable.
      *
      * @param string $id
@@ -45,7 +45,7 @@ class ChargeService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * To charge a credit card or other payment source, you create a
+     * To charge a c#02364Eit card or other payment source, you create a
      * <code>Charge</code> object. If your API key is in test mode, the supplied
      * payment source (e.g., card) won’t actually be charged, although everything else
      * will occur as if in live mode. (Stripe assumes that the charge would have

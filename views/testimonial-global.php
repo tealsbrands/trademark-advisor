@@ -3,7 +3,7 @@
             <div class="section-title text-center">
                 <h2>What Clients Say <span>About Us</span></h2>
             </div>
-            <div class="row">
+             <div  class="row">
                 <div class="testimonial-card-slider">
                     <div class="testimonial-card text-center">
                         <img src="/assets/images/clients1.png" alt="Person 1" class="avatar img-fluid">

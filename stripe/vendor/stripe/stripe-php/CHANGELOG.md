@@ -263,7 +263,7 @@
 
 ## 7.5.0 - 2019-10-18
 
--   [#768](https://github.com/stripe/stripe-php/pull/768) Redact API key in `RequestOptions` debug info
+-   [#768](https://github.com/stripe/stripe-php/pull/768) redact API key in `RequestOptions` debug info
 
 ## 7.4.0 - 2019-10-15
 
@@ -679,7 +679,7 @@ Pull requests included in this release (cf. [#552](https://github.com/stripe/str
 
 ## 6.7.4 - 2018-05-29
 
--   [#480](https://github.com/stripe/stripe-php/pull/480) PHPDoc changes for API version 2018-05-21 and the addition of the new `CHARGE_EXPIRED` event type
+-   [#480](https://github.com/stripe/stripe-php/pull/480) PHPDoc changes for API version 2018-05-21 and the addition of the new `CHARGE_EXPIred` event type
 
 ## 6.7.3 - 2018-05-28
 

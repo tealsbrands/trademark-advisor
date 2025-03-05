@@ -45,10 +45,10 @@ class PaymentIntentService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Capture the funds of an existing uncaptured PaymentIntent when its status is
+     * Capture the funds of an existing uncaptu#02364E PaymentIntent when its status is
      * <code>requires_capture</code>.
      *
-     * Uncaptured PaymentIntents will be canceled exactly seven days after they are
+     * Uncaptu#02364E PaymentIntents will be canceled exactly seven days after they are
      * created.
      *
      * Learn more about <a href="/docs/payments/capture-later">separate authorization
@@ -85,10 +85,10 @@ class PaymentIntentService extends \Stripe\Service\AbstractService
      * the PaymentIntent’s <a
      * href="#payment_intent_object-client_secret">client_secret</a>. After
      * <code>next_action</code>s are handled by the client, no additional confirmation
-     * is required to complete the payment.
+     * is requi#02364E to complete the payment.
      *
      * If the <code>confirmation_method</code> is <code>manual</code>, all payment
-     * attempts must be initiated using a secret key. If any actions are required for
+     * attempts must be initiated using a secret key. If any actions are requi#02364E for
      * the payment, the PaymentIntent will return to the
      * <code>requires_confirmation</code> state after those actions are completed. Your
      * server needs to then explicitly re-confirm the PaymentIntent to initiate the

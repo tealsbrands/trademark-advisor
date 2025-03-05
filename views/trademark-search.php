@@ -19,11 +19,11 @@
 
     <section id="service-banner">
         <div class="container">
-            <div class="row">
+            <div id="main-row" class="row">
                 <div class="col-md-6">
                     <div class="hero-form">
                         <div class="modal-lines">
-                            <h2 class="modal-heading">Request an <span>Appointment</span></h2>
+                            <h2 class="modal-heading">Request an Appointment</h2>
                             <p class="modal-subheading">Signup and get free consultation</p>
                         </div>
                         <form class="animate__animated animate__pulse" id="contact" action="/leads/" method="POST">
@@ -66,11 +66,10 @@
                 </div>
                 <div class="col-md-6">
                     <div class="text-wrapper">
-                        <h2>Safeguard Your Creative Work with<br> <span>Copyright Registration for Just $99</span></h2>
+                        <h2>Secure Your Brand with a <br><span>Thorough Trademark Search</span></h2>
                         <ul>
-                            <li>Register with USCO Today and Secure Your Rights!</li>
-                            <li>Perfect for Authors, Singers, Content Creators & More</li>
-                            <li>Fast & Hassle-Free Registration Process</li>
+                            <li>Confirm Your Trademark's Uniqueness</li>
+                            <li>Comprehensive Federal, State & Global Search for a Distinctive Brand</li>
                         </ul>
                         <div class="hero-buttons">
                             <a class="amz-button quote-button" href="javascript:;"><i class="fa-solid fa-comment"></i>Get Started</a>
@@ -82,6 +81,40 @@
         </div>
     </section>
 
+    <section id="sign-process">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Hassle-Free & Fast <span>Registration</span></h2>
+                <p></p>
+            </div>
+            <div id="main-row"  class="row">
+                <div class="col-sm-4">
+                    <div class="sign-process-item text-center">
+                        <img src="/assets/images/process-icon1.png" alt="" class="img-fluid">
+                        <h3><span>Register</span></h3>
+                        <p>Register with Your Trademark Information</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="sign-process-item text-center active">
+                        <img src="/assets/images/process-icon2.png" alt="" class="img-fluid">
+                        <h3><span>Submission</span></h3>
+                        <p>Our Expert Trademark Attorneys Will Organize Your Information</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="sign-process-item text-center">
+                        <img src="/assets/images/process-icon3.png" alt="" class="img-fluid">
+                        <h3><span>Finished</span></h3>
+                        <p>Our Attorneys Will Submit Your Application.</p>
+                    </div>
+                </div>
+            </div>
+            <div class="quote-btn text-center">
+                <a class="amz-button quote-button" href="javascript:;"><i class="fa-solid fa-comment"></i>Get Started</a>
+            </div>
+        </div>
+    </section>
 
 
     <section id="trademark-service">
@@ -89,7 +122,7 @@
             <div class="section-title text-center">
                 <h2>What Does <span>Copyright Protect</span>?</h2>
             </div>
-            <div class="row">
+            <div id="main-row"  class="row">
                 <div class="col-md-6">
                     <div class="checklist">
                         <img src="/assets/images/checked.png" alt="" class="img-fluid">
@@ -170,7 +203,7 @@
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="aa" role="tabpanel" aria-labelledby="aa">
                         <div class="container">
-                            <div class="row">
+                            <div id="main-row"  class="row">
                                 <div class="col-sm-3">
                                     <div class="plan-parent text-center">
                                         <h3>Gold</h3>
@@ -255,7 +288,7 @@
                 <div class="tab-content" id="ab">
                     <div class="tab-pane fade show" id="ab" role="tabpanel" aria-labelledby="ab">
                         <div class="container">
-                            <div class="row">
+                            <div id="main-row"  class="row">
                                 <div class="col-sm-3">
                                     <div class="plan-parent text-center">
                                         <h3>Gold</h3>
@@ -340,7 +373,7 @@
                 <div class="tab-content" id="ac">
                     <div class="tab-pane fade show" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="container">
-                            <div class="row">
+                            <div id="main-row"  class="row">
                                 <div class="col-sm-3">
                                     <div class="plan-parent text-center">
                                         <h3>Gold</h3>
@@ -425,7 +458,7 @@
                 <div class="tab-content" id="ad">
                     <div class="tab-pane fade show" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="container">
-                            <div class="row">
+                            <div id="main-row"  class="row">
                                 <div class="col-sm-3">
                                     <div class="plan-parent text-center">
                                         <h3>Gold</h3>
@@ -519,12 +552,73 @@
 
 
 
+    <section id="faqs-section">
+        <div class="container">
+            <div class="section-title text-center">
+                <h2>Frequently <span>Asked</span> Qestions</h2>
+            </div>
+            <div class="faqs-parent">
+                <div class="accordion" id="accordionExample">
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#collapseOne" aria-expanded="true" aria-controls="collapseOne">
+                            What are the copyright owner’s rights
+                            </button>
+                        </h2>
+                        <div id="collapseOne" class="accordion-collapse collapse show" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>A copyright owner has the exclusive right to reproduce, distribute, and create derivative works of their copyrighted material. They can also grant authorization to others for these activities.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseTwo" aria-expanded="false" aria-controls="collapseTwo">
+                            When does copyright expire?
+                            </button>
+                        </h2>
+                        <div id="collapseTwo" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Copyright protection often lasts for the duration of the creator’s lifetime plus an extra 70 years.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseThree" aria-expanded="false" aria-controls="collapseThree">
+                            Why should I get a copyright?
+                            </button>
+                        </h2>
+                        <div id="collapseThree" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Registering your copyright creates a public record and provides a registration certificate. Infringers can be sued for statutory damages and legal fees. Additionally, registering before or within five years of publication strengthens your copyright’s validity as evidence in court.</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="accordion-item">
+                        <h2 class="accordion-header">
+                            <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#collapseFour" aria-expanded="false" aria-controls="collapseFour">
+                            Should I provide a copy of my creative works?
+                            </button>
+                        </h2>
+                        <div id="collapseFour" class="accordion-collapse collapse" data-bs-parent="#accordionExample">
+                            <div class="accordion-body">
+                                <p>Yes, you will have to provide one copy of your creative work if it has not been published. If it has been published, then you will be required to submit 2 copies.</p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
     <section id="copyright-section">
         <div class="container">
             <div class="section-title text-center">
-                <h2>Copyright <span>Protection</span> Services</h2>
+                <h2>Thorough <span>Trademark Search</span> Solutions</h2>
             </div>
-            <div id="main-row" class="row">
+            <div   class="row">
                 <div id="inner-row1" class="row">
                     <div class="col-md-6">
                         <div class="img-bg">
@@ -533,22 +627,66 @@
                     </div>
                     <div class="col-md-6">
                         <div class="text-wrapper">
-                            <h3>Legal <span>Notice Letter</span></h3>
-                            <p>We ensure that your creative works remain protected even after copyright registration. A Cease & Desist letter allows you to take action if someone infringes on your trademark, demanding remedies and assurances from the infringer.</p>
+                            <h3>Federal & State <span>Trademark Search</span></h3>
+                            <p>We thoroughly scan our database for logos, names, or slogans similar to yours. The results include trademarks and related products, ensuring a comprehensive search across all 50 U.S. states.</p>
                         </div>
                     </div>
                 </div>
                 <div id="inner-row2" class="row">
                     <div class="col-md-6">
                         <div class="text-wrapper">
-                            <h3>Transfer of <span>Copyright Ownership</span></h3>
-                            <p>If you need to sell or transfer your copyright, we provide a ready-made template to streamline the process. As the assignor, you transfer rights to the assignee. This form can be customized to suit your specific requirements and business needs.</p>
+                            <h3>State & Common Law <span>Trademark Search</span></h3>
+                            <p>This service includes all federal & state search features with added benefits. We conduct corporate name searches across business entities, scan corporate directories for similar names, and perform proprietary internet searches to detect common law trademarks. Additionally, we check top-level domains to ensure your name isn’t already in use.</p>
                         </div>
                     </div>
                     <div class="col-md-6">
                         <div class="img-bg">
                             <img src="/assets/images/abc2.jpg" alt="" class="img-fluid">
                         </div>
+                    </div>
+                </div>
+                <div id="inner-row3"  >
+                    <div class="col-md-6">
+                        <div class="img-bg">
+                            <img src="/assets/images/abc1.jpg" alt="" class="img-fluid">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <div class="text-wrapper">
+                            <h3>Global <span>Trademark Search</span></h3>
+                            <p>This service scans registered and pending trademarks across multiple international jurisdictions. It also includes domain name searches within the European Community and trademarks under the World Intellectual Property Organization (WIPO).</p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <section id="counter-section">
+        <div class="container">
+            <div class="section-title">
+                <h2>Why <span>Trust</span> Us?</h2>
+            </div>
+            <div id="main-row"  class="row">
+                <div class="col-sm-4">
+                    <div class="counter">
+                        <h3><span>1.2 Million+</span></h3>
+                        <h4>Trademarks</h4>
+                        <p>Successfully Registered with USPTO to Date</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="counter">
+                        <h3><span>2.8 Million+</span></h3>
+                        <h4>Happy Clients</h4>
+                        <p>Proven Track Record of 100% Success</p>
+                    </div>
+                </div>
+                <div class="col-sm-4">
+                    <div class="counter">
+                        <h3><span>24/7</span></h3>
+                        <h4>Consultancy</h4>
+                        <p>Expert Attorneys for Every Industry</p>
                     </div>
                 </div>
             </div>

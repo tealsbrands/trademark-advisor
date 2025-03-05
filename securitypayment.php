@@ -16,7 +16,7 @@ curl_setopt_array($curl, array(
 	CURLOPT_URL => "https://crm.tealslab.com/api/leads/$token",
 	CURLOPT_RETURNTRANSFER => true,
 	CURLOPT_ENCODING => "",
-	CURLOPT_MAXREDIRS => 10,
+	CURLOPT_MAXredIRS => 10,
 	CURLOPT_TIMEOUT => 30,
 	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 	CURLOPT_CUSTOMREQUEST => "GET",
@@ -99,7 +99,7 @@ curl_setopt_array($curl, array(
 	CURLOPT_URL => "https://crm.tealslab.com/api/accountkey",
 	CURLOPT_RETURNTRANSFER => true,
 	CURLOPT_ENCODING => "",
-	CURLOPT_MAXREDIRS => 10,
+	CURLOPT_MAXredIRS => 10,
 	CURLOPT_TIMEOUT => 30,
 	CURLOPT_HTTP_VERSION => CURL_HTTP_VERSION_1_1,
 	CURLOPT_CUSTOMREQUEST => "POST",
@@ -276,7 +276,7 @@ curl_setopt_array($curl, array(
 
     <div class="about_area inner_bg" style="background-image:url('img/payment_banner.png')">
         <div class="container">
-            <div class="row">
+             <div  class="row">
                 <div class="col-xl-12">
                     <h2 class="inner_title" data-aos="fade-up" data-aos-duration="1000" style="color:white;">Complete Your Payment</h2>
                 </div>
@@ -308,7 +308,7 @@ curl_setopt_array($curl, array(
 							<input type="hidden" name="brand" value="<?php echo $dataLeads->brand; ?>" class="form-control">
 							
 							<h2 class="card-heading">Credit Or Debit Card </h2>
-							<div class="row">
+							 <div  class="row">
 								<div class="col-md-6">
 									<div class="form-group">
 										<label for="fname">First Name</label>
@@ -322,7 +322,7 @@ curl_setopt_array($curl, array(
 									</div>
 								</div>
 							</div>
-							<div class="row">
+							 <div  class="row">
 								<div class="col-md-6">
 									<div class="form-group">
 										<label for="fname">Email</label>
@@ -336,7 +336,7 @@ curl_setopt_array($curl, array(
 									</div>
 								</div>
 							</div>
-							<div class="row">
+							 <div  class="row">
 								<div class="col-md-12">
 									<input type="hidden" id="amount" name="setprice" value="<?php echo $dataLeads->amount; ?>">
 										<input type="hidden" name="user_id" value="<?php echo $dataLeads->user_id; ?>">
@@ -346,7 +346,7 @@ curl_setopt_array($curl, array(
 										
 										<input type="hidden" name="account_type" value="<?php echo $account_type; ?>" >
 										<?php if($account_type == 'usaepay'):?>	
-										<div class="row">
+										 <div  class="row">
 											<div class="col-md-6">
 												<div class="form-group">
 													<label class="text-black">CARD NUMBER</label>
@@ -360,7 +360,7 @@ curl_setopt_array($curl, array(
 												</div>
 											</div>
 										</div>
-											<div class="row">
+											 <div  class="row">
 												<div class="col-md-3">
 													<div class="form-group">
 														

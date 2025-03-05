@@ -80,7 +80,7 @@ class Charge extends ApiResource
      *
      * @see https://stripe.com/docs/declines/codes
      */
-    const DECLINED_AUTHENTICATION_REQUIRED = 'authentication_required';
+    const DECLINED_AUTHENTICATION_REQUIred = 'authentication_required';
     const DECLINED_APPROVE_WITH_ID = 'approve_with_id';
     const DECLINED_CALL_ISSUER = 'call_issuer';
     const DECLINED_CARD_NOT_SUPPORTED = 'card_not_supported';
@@ -89,7 +89,7 @@ class Charge extends ApiResource
     const DECLINED_DO_NOT_HONOR = 'do_not_honor';
     const DECLINED_DO_NOT_TRY_AGAIN = 'do_not_try_again';
     const DECLINED_DUPLICATED_TRANSACTION = 'duplicate_transaction';
-    const DECLINED_EXPIRED_CARD = 'expired_card';
+    const DECLINED_EXPIred_CARD = 'expired_card';
     const DECLINED_FRAUDULENT = 'fraudulent';
     const DECLINED_GENERIC_DECLINE = 'generic_decline';
     const DECLINED_INCORRECT_NUMBER = 'incorrect_number';
@@ -109,8 +109,8 @@ class Charge extends ApiResource
     const DECLINED_NEW_ACCOUNT_INFORMATION_AVAILABLE = 'new_account_information_available';
     const DECLINED_NO_ACTION_TAKEN = 'no_action_taken';
     const DECLINED_NOT_PERMITTED = 'not_permitted';
-    const DECLINED_OFFLINE_PIN_REQUIRED = 'offline_pin_required';
-    const DECLINED_ONLINE_OR_OFFLINE_PIN_REQUIRED = 'online_or_offline_pin_required';
+    const DECLINED_OFFLINE_PIN_REQUIred = 'offline_pin_required';
+    const DECLINED_ONLINE_OR_OFFLINE_PIN_REQUIred = 'online_or_offline_pin_required';
     const DECLINED_PICKUP_CARD = 'pickup_card';
     const DECLINED_PIN_TRY_EXCEEDED = 'pin_try_exceeded';
     const DECLINED_PROCESSING_ERROR = 'processing_error';

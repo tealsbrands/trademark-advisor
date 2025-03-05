@@ -4,10 +4,10 @@
                 <div class="row align">
                 <div class="col-md-2">
                   <div class="footer-image-wrapper">
-                    <img src="/assets/images/trademark-logo.png" alt="">
+                    <img src="/assets/images/trademark-logo-blk.png" alt="">
                   </div>
                         <h4 class="forange">Follow Us On</h4>
-                        <div class="icons1 logo">
+                        <div class="icons1">
                             <a href="https://www.facebook.com/amzinventors/" class="bi bi-facebook" target="_blank"></a>
                             <a href="https://www.instagram.com/amzinventors/" class="bi bi-instagram" target="_blank"></a>
                            </div>
@@ -24,10 +24,12 @@
                     <div class="col-md-3">
                         <h4 class="forange">Services</h4>
                         <ul class="contact-info">
-                            <li><a href="amazon/">Amazon FBA Wholesale</a></li>
-                            <li><a href="shopify/">Shopify Dropshipping</a></li>
-                            <li><a href="tiktok/">TikTok Shop</a></li>
-                            <li><a href="walmart/">Walmart Dropshipping</a></li>
+                            <li><a href="/trademark-registration/">Trademark Registration</a></li>
+                            <li><a href="/copyright-registration/">Copyright Registration</a></li>
+                            <li><a href="/company-formation/">Company Formation</a></li>
+                            <li><a href="/e-selling/">E-Selling Platforms</a></li>
+                            <li><a href="/trademark-search/">Trademark Search</a></li>
+                            <li><a href="/web-design/">Web Design Services</a></li>
                         </ul>
                     </div>
                     <div class="col-md-4">
@@ -42,14 +44,14 @@
                 </div>
                 <hr  class="horizontal-line">
                 <div class="copyright text-center">
-                    <p>© 2024 Copyrights <span style="color: #fb2201;"><b>Trademark Advisor</b></span> All Rights Reserved.</p>
+                    <p>© 2025 Copyrights <span style="color: #02364E;"><b>Trademark Advisor</b></span> All Rights Reserved.</p>
                 </div>
             </div>
         </footer>
         <div id="quoteModal" class="modal">
   <div class="modal-content">
     <span class="close">&times;</span>
-   <div class="row">
+    <div  class="row">
     <div class="col-lg-6">
       <div class="modal-first">
       <div class="modal-image-wrapper">
@@ -63,11 +65,11 @@
     </div>
     <div class="col-lg-6">
     <div class="modal-lines text-center">
-      <h2 class="modal-heading">Request an <span>Appointment</span></h2>
+      <h2 class="modal-heading">Request an Appointment</h2>
       <p class="modal-subheading">Signup and get free consultation</p>
     </div>
       <form class="animate__animated animate__pulse" id="contact" action="/leads/" method="POST">
-        <div class="row">
+         <div  class="row">
             <div class="">
               <fieldset>
                 <input placeholder="Your Name" type="text" tabindex="1" name="name" required>

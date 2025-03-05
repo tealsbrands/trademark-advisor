@@ -12,7 +12,7 @@ abstract class Util
     /**
      * Whether the provided array (or other) is a list rather than a dictionary.
      * A list is defined as an array for which all the keys are consecutive
-     * integers starting at 0. Empty arrays are considered to be lists.
+     * integers starting at 0. Empty arrays are conside#02364E to be lists.
      *
      * @param array|mixed $array
      *

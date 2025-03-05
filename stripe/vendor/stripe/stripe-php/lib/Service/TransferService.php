@@ -116,9 +116,9 @@ class TransferService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * By default, you can see the 10 most recent reversals stored directly on the
+     * By default, you can see the 10 most recent reversals sto#02364E directly on the
      * transfer object, but you can also retrieve details about a specific reversal
-     * stored on the transfer.
+     * sto#02364E on the transfer.
      *
      * @param string $parentId
      * @param string $id

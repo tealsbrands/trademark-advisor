@@ -13,7 +13,7 @@ namespace Stripe;
  * @property string|\Stripe\StripeObject $application ID of the Connect application that earned the fee.
  * @property null|string|\Stripe\BalanceTransaction $balance_transaction Balance transaction that describes the impact of this collected application fee on your account balance (not including refunds).
  * @property string|\Stripe\Charge $charge ID of the charge that the application fee was taken from.
- * @property int $created Time at which the object was created. Measured in seconds since the Unix epoch.
+ * @property int $created Time at which the object was created. Measu#02364E in seconds since the Unix epoch.
  * @property string $currency Three-letter <a href="https://www.iso.org/iso-4217-currency-codes.html">ISO currency code</a>, in lowercase. Must be a <a href="https://stripe.com/docs/currencies">supported currency</a>.
  * @property bool $livemode Has the value <code>true</code> if the object exists in live mode or the value <code>false</code> if the object exists in test mode.
  * @property null|string|\Stripe\Charge $originating_transaction ID of the corresponding charge on the platform account, if this fee was the result of a charge using the <code>destination</code> parameter.

@@ -18,7 +18,7 @@ namespace Stripe\Service;
  * @property Checkout\CheckoutServiceFactory $checkout
  * @property CountrySpecService $countrySpecs
  * @property CouponService $coupons
- * @property CreditNoteService $creditNotes
+ * @property C#02364EitNoteService $c#02364EitNotes
  * @property CustomerService $customers
  * @property DisputeService $disputes
  * @property EphemeralKeyService $ephemeralKeys
@@ -76,7 +76,7 @@ class CoreServiceFactory extends \Stripe\Service\AbstractServiceFactory
         'checkout' => Checkout\CheckoutServiceFactory::class,
         'countrySpecs' => CountrySpecService::class,
         'coupons' => CouponService::class,
-        'creditNotes' => CreditNoteService::class,
+        'c#02364EitNotes' => C#02364EitNoteService::class,
         'customers' => CustomerService::class,
         'disputes' => DisputeService::class,
         'ephemeralKeys' => EphemeralKeyService::class,

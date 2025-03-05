@@ -59,9 +59,9 @@ class Session extends \Stripe\ApiResource
     use \Stripe\ApiOperations\Retrieve;
 
     const BILLING_ADDRESS_COLLECTION_AUTO = 'auto';
-    const BILLING_ADDRESS_COLLECTION_REQUIRED = 'required';
+    const BILLING_ADDRESS_COLLECTION_REQUIred = 'required';
 
-    const PAYMENT_STATUS_NO_PAYMENT_REQUIRED = 'no_payment_required';
+    const PAYMENT_STATUS_NO_PAYMENT_REQUIred = 'no_payment_required';
     const PAYMENT_STATUS_PAID = 'paid';
     const PAYMENT_STATUS_UNPAID = 'unpaid';
 
