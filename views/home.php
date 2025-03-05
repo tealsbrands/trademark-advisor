@@ -64,7 +64,7 @@
                             <p class="modal-subheading">Signup and get free consultation</p>
                         </div>
                         <form class="animate__animated animate__pulse" id="contact" action="/leads/" method="POST">
-                             <div  class="row">
+                            <div id="main-row"  class="row">
                                 <div class="">
                                     <fieldset>
                                         <input placeholder="Your Name" type="text" tabindex="1" name="name" required>
@@ -111,7 +111,7 @@
                 <h2>Hassle-Free & Fast <span>Registration</span></h2>
                 <p></p>
             </div>
-             <div  class="row">
+            <div id="main-row"  class="row">
                 <div class="col-sm-4">
                     <div class="sign-process-item text-center">
                         <img src="/assets/images/process-icon1.png" alt="" class="img-fluid">
@@ -144,7 +144,7 @@
 
     <section id="about-us">
         <div class="container">
-             <div  class="row">
+            <div id="main-row"  class="row">
                 <div class="col-md-6">
                     <div class="img-bg">
                         <img src="/assets/images/about-us.jpg" alt="" class="img-fluid">
@@ -176,8 +176,8 @@
             <div class="section-title text-center">
                 <h2>Expert Trademark <span>Registration Solutions</span></h2>
             </div>
-            <div   class="row">
-                <div id="inner-row-1"  >
+            <div class="row">
+                <div id="inner-row-1" class="row">
                     <div class="col-md-6">
                         <div class="text-wrapper">
                             <h3>Trademark Registration & Renewals</h3>
@@ -190,7 +190,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="inner-row-2"  >
+                <div id="inner-row-2" class="row">
                     <div class="col-md-6">
                         <div class="img-bg">
                             <img src="/assets/images/trademark-2.png" alt="" class="img-fluid">
@@ -203,7 +203,7 @@
                         </div>
                     </div>
                 </div>
-                <div id="inner-row-3"  >
+                <div id="inner-row-3" class="row" >
                     <div class="col-md-6">
                         <div class="text-wrapper">
                             <h3>Comprehensive Documentation Solutions</h3>
@@ -264,7 +264,7 @@
                 <div class="tab-content" id="myTabContent">
                     <div class="tab-pane fade show active" id="aa" role="tabpanel" aria-labelledby="aa">
                         <div class="container">
-                             <div  class="row">
+                            <div id="main-row"  class="row">
                                 <div class="col-sm-3">
                                     <div class="plan-parent text-center">
                                         <h3>Gold</h3>
@@ -349,7 +349,7 @@
                 <div class="tab-content" id="ab">
                     <div class="tab-pane fade show" id="ab" role="tabpanel" aria-labelledby="ab">
                         <div class="container">
-                             <div  class="row">
+                            <div id="main-row"  class="row">
                                 <div class="col-sm-3">
                                     <div class="plan-parent text-center">
                                         <h3>Gold</h3>
@@ -434,7 +434,7 @@
                 <div class="tab-content" id="ac">
                     <div class="tab-pane fade show" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="container">
-                             <div  class="row">
+                            <div id="main-row"  class="row">
                                 <div class="col-sm-3">
                                     <div class="plan-parent text-center">
                                         <h3>Gold</h3>
@@ -519,7 +519,7 @@
                 <div class="tab-content" id="ad">
                     <div class="tab-pane fade show" id="home" role="tabpanel" aria-labelledby="home-tab">
                         <div class="container">
-                             <div  class="row">
+                            <div id="main-row"  class="row">
                                 <div class="col-sm-3">
                                     <div class="plan-parent text-center">
                                         <h3>Gold</h3>

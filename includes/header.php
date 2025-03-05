@@ -9,9 +9,6 @@
         <li class="nav-item px-lg-3">
           <a class="nav-link " aria-current="page" href="">Home</a>
         </li>
-        <li class="nav-item px-lg-3">
-          <a class="nav-link" href="about/">About</a>
-        </li>
         <li class="nav-item dropdown px-lg-3">
           <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown" aria-expanded="false">
             Services

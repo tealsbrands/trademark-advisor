@@ -22,11 +22,58 @@ html,
 body {
     font-family: "Poppins", sans-serif !important;
 }
-
+.navbar-expand-lg .navbar-nav .dropdown-menu {
+    background: #fff;
+    padding: 10px 0px;
+}
+span.close {
+    position: absolute;
+    top: 10px;
+    right: 10px;
+    color: #024660;
+    opacity: 1;
+    font-family: 'FontAwesome';
+    background: #ffffff;
+    font-size: 18px;
+    width: 30px;
+    height: 30px;
+    border-radius: 30px;
+    text-align: center;
+    line-height: 40px;
+}
 .row {
     align-items: center;
+    justify-content: center;
 }
-
+.modal-first h3, .modal-first p {
+    color: #fff;
+}
+.modal-content {
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    width: 60% !important;
+    padding: 40px 40px;
+    background: linear-gradient(45deg, #023d56, #00a5c8);
+    border-radius: 32px !important;
+}
+.model-box-form p {
+    color: #000 !important;
+}
+.modal-content .model-box-form input, .modal-content .model-box-form textarea {
+    background: #e7e6e6;
+    border: 2px solid #ccc;
+    margin-bottom: 10px;
+    border-radius: 12px;
+}
+/* .modal-content .model-box-form input::placeholder, .modal-content .model-box-form textarea::placeholder {
+    padding: 10px 8px;
+} */
+.modal-content .model-box-form {
+    background: #fff;
+    padding: 20px 20px 20px;
+    border-radius: 32px;
+}
 a {
     text-decoration: none !important;
     color: #000 !important;
@@ -112,9 +159,9 @@ a.navbar-brand {
 
 a.amz-button.quote-button:hover,
 .bton:hover {
-    background: #000;
+    background: #02364E !important;
     color: #fff !important;
-    border-color: #000;
+    border-color: #02364E !important;
 }
 
 a.amz-button.quote-button i {
@@ -138,7 +185,11 @@ a.amz-button.quote-button,
 }
 
 a.amz-button:hover {
-    background: #000;
+    background: #02364E;
+    color: #fff !important;
+}
+a.amz-button.quote-button:hover i,
+.bton:hover i, a.amz-button:hover i {
     color: #fff !important;
 }
 
@@ -275,9 +326,31 @@ form input {
     border-radius: 22px;
     box-shadow: 0px 0px 40px #cccccc75;
     margin: 0px 20px;
-    background-color: #024159;
+    background: linear-gradient(45deg, #024159, #0091b2);
 }
-
+button.slick-arrow::before {
+    font-family: 'FontAwesome';
+    color: #fff;
+    opacity: 1;
+    font-size: 24px;
+}
+button.slick-arrow {
+    background: linear-gradient(45deg, #014862, #007997);
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    transition: 0.5s;
+}
+.slick-prev:hover, .slick-prev:focus, .slick-next:hover, .slick-next:focus {
+    background: linear-gradient(45deg, #024159, #0091b2) !important;
+    color: #fff !important;
+}
+button.slick-next {
+    right: -80px;
+}
+button.slick-prev {
+    left: -80px;
+}
 .modal-button-div button {
     background: #000;
     color: #fff;
@@ -293,6 +366,10 @@ form input {
     line-height: 28px;
     color: #02364E;
     font-weight: 500;
+    margin: 0;
+}
+.call-info-header a p:nth-child(2) {
+    margin: 0 !important;
 }
 
 .call-info-header a {
@@ -407,9 +484,17 @@ form input {
     border: 2px solid #fff;
     box-shadow: 0px 0px 40px #cccccc8f;
 }
-
+.phone-div-header {
+    display: none;
+}
 #trademark-section {
     padding: 100px 0 40px;
+}
+#trademark-section img {
+    width: 80%;
+    border-radius: 12px;
+    border: 2px solid #fff;
+    box-shadow: 0px 0px 40px #cccccc8f;
 }
 
 #trademark-section div#inner-row-1 img,
@@ -555,9 +640,11 @@ img.avatar {
     background: #f1f0f0;
     padding: 40px 0px 10px;
 }
-
+html body {
+    overflow-x: hidden !important;
+}
 .footer-section .footer-image-wrapper img {
-    width: 75%;
+    width: 85%;
     margin-bottom: 30px;
 }
 
@@ -637,7 +724,7 @@ img.avatar {
 }
 
 #copyright-section {
-    padding: 40px 0px 80px;
+    padding: 40px 0px 20px;
 }
 
 #copyright-section div#inner-row1,
