@@ -4,7 +4,7 @@
 
 <head>
     <!-- <title>Affordable E-Book Writing Services - Pro Book Publishing</title> -->
-    <title>Trademar Adivsor</title>
+    <title>Trademark Adivsor</title>
     <meta name="description" content=" It’s time to become a published author. Pro Book Publishing offer professional book writing services – second to none. Hire our experienced writers now.">
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, user-scalable=yes, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
@@ -64,7 +64,7 @@
                                 </div>
                             </div>
                             <input type="hidden" name="route" value="form/">
-                            <input type="hidden" name="brand" value="AmzInventors">
+                            <input type="hidden" name="brand" value="Trademark Advisor">
                             <input type="hidden" name="token" value="<?= $token; ?>">
                             <input type="hidden" name="tag" value="sidepanel form in landing-page">
                             <input type="hidden" name="price" value="null">

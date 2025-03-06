@@ -8,8 +8,8 @@
              </div>
              <h4 class="forange">Follow Us On</h4>
              <div class="icons1">
-               <a href="https://www.facebook.com/amzinventors/" class="bi bi-facebook" target="_blank"></a>
-               <a href="https://www.instagram.com/amzinventors/" class="bi bi-instagram" target="_blank"></a>
+               <a href="#" class="bi bi-facebook" target="_blank"></a>
+               <a href="#" class="bi bi-instagram" target="_blank"></a>
              </div>
            </div>
            <div class="col-md-3">
@@ -96,7 +96,7 @@
                    </div>
                  </div>
                  <input type="hidden" name="route" value="form/">
-                 <input type="hidden" name="brand" value="AmzInventors">
+                 <input type="hidden" name="brand" value="Trademark Advisor">
                  <input type="hidden" name="token" value="<?= $token; ?>">
                  <input type="hidden" name="tag" value="sidepanel form in landing-page">
                  <input type="hidden" name="price" value="null">
