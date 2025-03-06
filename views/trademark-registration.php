@@ -221,7 +221,7 @@
                                             <li>Trademark Secured</li>
                                             <li>100% Satisfaction Guarantee</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -240,7 +240,7 @@
                                             <li>100% Satisfaction Guarantee</li>
                                             <li>Refusal Risk Meter</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -260,7 +260,7 @@
                                             <li>Direct Hit Search</li>
                                             <li>Refusal Risk Meter</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -281,7 +281,7 @@
                                             <li>Refusal Risk Meter</li>
                                             <li>Direct Hit Search</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                             </div>
@@ -306,7 +306,7 @@
                                             <li>Trademark Secured</li>
                                             <li>100% Satisfaction Guarantee</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -325,7 +325,7 @@
                                             <li>100% Satisfaction Guarantee</li>
                                             <li>Refusal Risk Meter</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -345,7 +345,7 @@
                                             <li>Direct Hit Search</li>
                                             <li>Refusal Risk Meter</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -366,7 +366,7 @@
                                             <li>Refusal Risk Meter</li>
                                             <li>Direct Hit Search</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                             </div>
@@ -391,7 +391,7 @@
                                             <li>Trademark Secured</li>
                                             <li>100% Satisfaction Guarantee</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -410,7 +410,7 @@
                                             <li>100% Satisfaction Guarantee</li>
                                             <li>Refusal Risk Meter</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -430,7 +430,7 @@
                                             <li>Direct Hit Search</li>
                                             <li>Refusal Risk Meter</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -451,7 +451,7 @@
                                             <li>Refusal Risk Meter</li>
                                             <li>Direct Hit Search</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                             </div>
@@ -476,7 +476,7 @@
                                             <li>Trademark Secured</li>
                                             <li>100% Satisfaction Guarantee</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -495,7 +495,7 @@
                                             <li>100% Satisfaction Guarantee</li>
                                             <li>Refusal Risk Meter</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -515,7 +515,7 @@
                                             <li>Direct Hit Search</li>
                                             <li>Refusal Risk Meter</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                                 <div class="col-sm-3">
@@ -536,7 +536,7 @@
                                             <li>Refusal Risk Meter</li>
                                             <li>Direct Hit Search</li>
                                         </ul>
-                                        <a href="#" class="plan-btn">get started</a>
+                                        <a href="javascript:;"class="plan-btn quote-button">get started</a>
                                     </div>
                                 </div>
                             </div>
