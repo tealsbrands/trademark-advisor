@@ -53,7 +53,7 @@ class FileLinkService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Updates an existing file link object. Expi#02364E links can no longer be updated.
+     * Updates an existing file link object. Expired links can no longer be updated.
      *
      * @param string $id
      * @param null|array $params

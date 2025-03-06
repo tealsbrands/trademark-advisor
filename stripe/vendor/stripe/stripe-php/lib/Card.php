@@ -34,9 +34,9 @@ namespace Stripe;
  * @property int $exp_month Two-digit number representing the card's expiration month.
  * @property int $exp_year Four-digit number representing the card's expiration year.
  * @property null|string $fingerprint Uniquely identifies this particular card number. You can use this attribute to check whether two customers who’ve signed up with you are using the same card number,for example. For payment methods that tokenize card information (Apple Pay, Google Pay), the tokenized number might be provided instead of the underlying card number.
- * @property string $funding Card funding type. Can be <code>c#02364Eit</code>, <code>debit</code>, <code>prepaid</code>, or <code>unknown</code>.
+ * @property string $funding Card funding type. Can be <code>credit</code>, <code>debit</code>, <code>prepaid</code>, or <code>unknown</code>.
  * @property string $last4 The last four digits of the card.
- * @property null|\Stripe\StripeObject $metadata Set of <a href="https://stripe.com/docs/api/metadata">key-value pairs</a> that you can attach to an object. This can be useful for storing additional information about the object in a structu#02364E format.
+ * @property null|\Stripe\StripeObject $metadata Set of <a href="https://stripe.com/docs/api/metadata">key-value pairs</a> that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
  * @property null|string $name Cardholder name.
  * @property null|string|\Stripe\Recipient $recipient The recipient that this card belongs to. This attribute will not be in the card object if the card belongs to a customer or account instead.
  * @property null|string $tokenization_method If the card number is tokenized, this is the method that was used. Can be <code>android_pay</code> (includes Google Pay), <code>apple_pay</code>, <code>masterpass</code>, <code>visa_checkout</code>, or null.
@@ -63,7 +63,7 @@ class Card extends ApiResource
      *
      * @see https://stripe.com/docs/api/cards/object#card_object-funding
      */
-    const FUNDING_C#02364EIT = 'c#02364Eit';
+    const FUNDING_CREDIT = 'credit';
     const FUNDING_DEBIT = 'debit';
     const FUNDING_PREPAID = 'prepaid';
     const FUNDING_UNKNOWN = 'unknown';

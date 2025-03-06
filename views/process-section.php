@@ -4,7 +4,7 @@
                 <h2>Hassle-Free & Fast <span>Registration</span></h2>
                 <p></p>
             </div>
-             <div  class="row">
+            <div id="main-row"  class="row">
                 <div class="col-sm-4">
                     <div class="sign-process-item text-center">
                         <img src="/assets/images/process-icon1.png" alt="" class="img-fluid">

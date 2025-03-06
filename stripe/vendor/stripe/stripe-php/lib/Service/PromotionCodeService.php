@@ -23,7 +23,7 @@ class PromotionCodeService extends \Stripe\Service\AbstractService
 
     /**
      * A promotion code points to a coupon. You can optionally restrict the code to a
-     * specific customer, #02364Eemption limit, and expiration date.
+     * specific customer, redemption limit, and expiration date.
      *
      * @param null|array $params
      * @param null|array|\Stripe\Util\RequestOptions $opts

@@ -12,8 +12,8 @@
 [05-Aug-2022 03:29:08 America/New_York] PHP Fatal error:  Class 'Stripe\ApiResource' not found in /home/theltatk/public_html/stripe/vendor/stripe/stripe-php/lib/Capability.php on line 22
 [05-Aug-2022 03:34:05 America/New_York] PHP Fatal error:  Class 'Stripe\StripeObject' not found in /home/theltatk/public_html/stripe/vendor/stripe/stripe-php/lib/Collection.php on line 13
 [05-Aug-2022 03:44:05 America/New_York] PHP Fatal error:  Class 'Stripe\ApiResource' not found in /home/theltatk/public_html/stripe/vendor/stripe/stripe-php/lib/CountrySpec.php on line 24
-[05-Aug-2022 04:03:55 America/New_York] PHP Fatal error:  Class 'Stripe\ApiResource' not found in /home/theltatk/public_html/stripe/vendor/stripe/stripe-php/lib/C#02364EitNote.php on line 40
-[05-Aug-2022 04:44:11 America/New_York] PHP Fatal error:  Class 'Stripe\ApiResource' not found in /home/theltatk/public_html/stripe/vendor/stripe/stripe-php/lib/C#02364EitNoteLineItem.php on line 23
+[05-Aug-2022 04:03:55 America/New_York] PHP Fatal error:  Class 'Stripe\ApiResource' not found in /home/theltatk/public_html/stripe/vendor/stripe/stripe-php/lib/CreditNote.php on line 40
+[05-Aug-2022 04:44:11 America/New_York] PHP Fatal error:  Class 'Stripe\ApiResource' not found in /home/theltatk/public_html/stripe/vendor/stripe/stripe-php/lib/CreditNoteLineItem.php on line 23
 [06-Aug-2022 01:59:38 America/New_York] PHP Fatal error:  Class 'Stripe\ApiResource' not found in /home/theltatk/public_html/stripe/vendor/stripe/stripe-php/lib/Customer.php on line 42
 [06-Aug-2022 02:19:10 America/New_York] PHP Fatal error:  Class 'Stripe\ApiResource' not found in /home/theltatk/public_html/stripe/vendor/stripe/stripe-php/lib/CustomerBalanceTransaction.php on line 34
 [06-Aug-2022 02:55:58 America/New_York] PHP Fatal error:  Class 'Stripe\StripeObject' not found in /home/theltatk/public_html/stripe/vendor/stripe/stripe-php/lib/Discount.php on line 15

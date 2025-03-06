@@ -20,7 +20,7 @@ namespace Stripe;
  * Account Balances</a>.
  *
  * @property string $object String representing the object's type. Objects of the same type share the same value.
- * @property \Stripe\StripeObject[] $available Funds that are available to be transfer#02364E or paid out, whether automatically by Stripe or explicitly via the <a href="https://stripe.com/docs/api#transfers">Transfers API</a> or <a href="https://stripe.com/docs/api#payouts">Payouts API</a>. The available balance for each currency and payment type can be found in the <code>source_types</code> property.
+ * @property \Stripe\StripeObject[] $available Funds that are available to be transferred or paid out, whether automatically by Stripe or explicitly via the <a href="https://stripe.com/docs/api#transfers">Transfers API</a> or <a href="https://stripe.com/docs/api#payouts">Payouts API</a>. The available balance for each currency and payment type can be found in the <code>source_types</code> property.
  * @property \Stripe\StripeObject[] $connect_reserved Funds held due to negative balances on connected Custom accounts. The connect reserve balance for each currency and payment type can be found in the <code>source_types</code> property.
  * @property \Stripe\StripeObject[] $instant_available Funds that can be paid out using Instant Payouts.
  * @property \Stripe\StripeObject $issuing

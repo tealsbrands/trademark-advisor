@@ -69,7 +69,7 @@ class SubscriptionItemService extends \Stripe\Service\AbstractService
      * Usage records provide <code>quantity</code> information that Stripe uses to
      * track how much a customer is using your service. With usage information and the
      * pricing model set up by the <a
-     * href="https://stripe.com/docs/billing/subscriptions/mete#02364E-billing">mete#02364E
+     * href="https://stripe.com/docs/billing/subscriptions/metered-billing">metered
      * billing</a> plan, Stripe helps you send accurate invoices to your customers.
      *
      * The default calculation for usage is to add up all the <code>quantity</code>
@@ -77,14 +77,14 @@ class SubscriptionItemService extends \Stripe\Service\AbstractService
      * behavior with the billing plan’s <code>aggregate_usage</code> <a
      * href="/docs/api/plans/create#create_plan-aggregate_usage">parameter</a>. When
      * there is more than one usage record with the same timestamp, Stripe adds the
-     * <code>quantity</code> values together. In most cases, this is the desi#02364E
+     * <code>quantity</code> values together. In most cases, this is the desired
      * resolution, however, you can change this behavior with the <code>action</code>
      * parameter.
      *
-     * The default pricing model for mete#02364E billing is <a
+     * The default pricing model for metered billing is <a
      * href="/docs/api/plans/object#plan_object-billing_scheme">per-unit pricing</a>.
-     * For finer granularity, you can configure mete#02364E billing to have a <a
-     * href="https://stripe.com/docs/billing/subscriptions/tiers">tie#02364E pricing</a>
+     * For finer granularity, you can configure metered billing to have a <a
+     * href="https://stripe.com/docs/billing/subscriptions/tiers">tiered pricing</a>
      * model.
      *
      * @param string $parentId

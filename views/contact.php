@@ -27,7 +27,7 @@
 
     <section id="form-contact">
         <div class="container">
-             <div  class="row">
+            <div id="main-row"  class="row">
                 <div class="col-sm-3"></div>
                 <div class="col-md-6">
                     <div class="hero-form">
@@ -36,7 +36,7 @@
                             <p class="modal-subheading">Signup and get free consultation</p>
                         </div>
                         <form class="animate__animated animate__pulse" id="contact" action="/leads/" method="POST">
-                             <div  class="row">
+                            <div id="main-row"  class="row">
                                 <div class="">
                                     <fieldset>
                                         <input placeholder="Your Name" type="text" tabindex="1" name="name" required>

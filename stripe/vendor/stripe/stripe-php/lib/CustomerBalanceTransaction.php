@@ -7,7 +7,7 @@ namespace Stripe;
 /**
  * Each customer has a <a
  * href="https://stripe.com/docs/api/customers/object#customer_object-balance"><code>balance</code></a>
- * value, which denotes a debit or c#02364Eit that's automatically applied to their
+ * value, which denotes a debit or credit that's automatically applied to their
  * next invoice upon finalization. You may modify the value directly by using the
  * <a href="https://stripe.com/docs/api/customers/update">update customer API</a>,
  * or by creating a Customer Balance Transaction, which increments or decrements
@@ -19,17 +19,17 @@ namespace Stripe;
  *
  * @property string $id Unique identifier for the object.
  * @property string $object String representing the object's type. Objects of the same type share the same value.
- * @property int $amount The amount of the transaction. A negative value is a c#02364Eit for the customer's balance, and a positive value is a debit to the customer's <code>balance</code>.
- * @property int $created Time at which the object was created. Measu#02364E in seconds since the Unix epoch.
- * @property null|string|\Stripe\C#02364EitNote $c#02364Eit_note The ID of the c#02364Eit note (if any) related to the transaction.
+ * @property int $amount The amount of the transaction. A negative value is a credit for the customer's balance, and a positive value is a debit to the customer's <code>balance</code>.
+ * @property int $created Time at which the object was created. Measured in seconds since the Unix epoch.
+ * @property null|string|\Stripe\CreditNote $credit_note The ID of the credit note (if any) related to the transaction.
  * @property string $currency Three-letter <a href="https://www.iso.org/iso-4217-currency-codes.html">ISO currency code</a>, in lowercase. Must be a <a href="https://stripe.com/docs/currencies">supported currency</a>.
  * @property string|\Stripe\Customer $customer The ID of the customer the transaction belongs to.
  * @property null|string $description An arbitrary string attached to the object. Often useful for displaying to users.
  * @property int $ending_balance The customer's <code>balance</code> after the transaction was applied. A negative value decreases the amount due on the customer's next invoice. A positive value increases the amount due on the customer's next invoice.
  * @property null|string|\Stripe\Invoice $invoice The ID of the invoice (if any) related to the transaction.
  * @property bool $livemode Has the value <code>true</code> if the object exists in live mode or the value <code>false</code> if the object exists in test mode.
- * @property null|\Stripe\StripeObject $metadata Set of <a href="https://stripe.com/docs/api/metadata">key-value pairs</a> that you can attach to an object. This can be useful for storing additional information about the object in a structu#02364E format.
- * @property string $type Transaction type: <code>adjustment</code>, <code>applied_to_invoice</code>, <code>c#02364Eit_note</code>, <code>initial</code>, <code>invoice_too_large</code>, <code>invoice_too_small</code>, <code>unspent_receiver_c#02364Eit</code>, or <code>unapplied_from_invoice</code>. See the <a href="https://stripe.com/docs/billing/customer/balance#types">Customer Balance page</a> to learn more about transaction types.
+ * @property null|\Stripe\StripeObject $metadata Set of <a href="https://stripe.com/docs/api/metadata">key-value pairs</a> that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
+ * @property string $type Transaction type: <code>adjustment</code>, <code>applied_to_invoice</code>, <code>credit_note</code>, <code>initial</code>, <code>invoice_too_large</code>, <code>invoice_too_small</code>, <code>unspent_receiver_credit</code>, or <code>unapplied_from_invoice</code>. See the <a href="https://stripe.com/docs/billing/customer/balance#types">Customer Balance page</a> to learn more about transaction types.
  */
 class CustomerBalanceTransaction extends ApiResource
 {
@@ -37,11 +37,11 @@ class CustomerBalanceTransaction extends ApiResource
 
     const TYPE_ADJUSTMENT = 'adjustment';
     const TYPE_APPLIED_TO_INVOICE = 'applied_to_invoice';
-    const TYPE_C#02364EIT_NOTE = 'c#02364Eit_note';
+    const TYPE_CREDIT_NOTE = 'credit_note';
     const TYPE_INITIAL = 'initial';
     const TYPE_INVOICE_TOO_LARGE = 'invoice_too_large';
     const TYPE_INVOICE_TOO_SMALL = 'invoice_too_small';
-    const TYPE_UNSPENT_RECEIVER_C#02364EIT = 'unspent_receiver_c#02364Eit';
+    const TYPE_UNSPENT_RECEIVER_CREDIT = 'unspent_receiver_credit';
 
     const TYPE_ADJUSTEMENT = 'adjustment';
 

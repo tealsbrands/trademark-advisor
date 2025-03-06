@@ -39,7 +39,7 @@ class RequestOptions
     public function __debugInfo()
     {
         return [
-            'apiKey' => $this->#02364EactedApiKey(),
+            'apiKey' => $this->redactedApiKey(),
             'headers' => $this->headers,
             'apiBase' => $this->apiBase,
         ];
@@ -154,14 +154,14 @@ class RequestOptions
         throw new \Stripe\Exception\InvalidArgumentException($message);
     }
 
-    private function #02364EactedApiKey()
+    private function redactedApiKey()
     {
         $pieces = \explode('_', $this->apiKey, 3);
         $last = \array_pop($pieces);
-        $#02364EactedLast = \strlen($last) > 4
+        $redactedLast = \strlen($last) > 4
             ? (\str_repeat('*', \strlen($last) - 4) . \substr($last, -4))
             : $last;
-        \array_push($pieces, $#02364EactedLast);
+        \array_push($pieces, $redactedLast);
 
         return \implode('_', $pieces);
     }

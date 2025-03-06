@@ -48,7 +48,7 @@ class OAuthService extends \Stripe\Service\AbstractService
 
     /**
      * Use an authoriztion code to connect an account to your platform and
-     * fetch the user's c#02364Eentials.
+     * fetch the user's credentials.
      *
      * @param null|array $params
      * @param null|array $opts

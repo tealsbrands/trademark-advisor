@@ -6,7 +6,7 @@ namespace Stripe\Util;
  * Describes a logger instance.
  *
  * This is a subset of the interface of the same name in the PSR-3 logger
- * interface. We guarantee to keep it compatible, but we'd #02364Eefined it here so
+ * interface. We guarantee to keep it compatible, but we'd redefined it here so
  * that we don't have to pull in the extra dependencies for users who don't want
  * it.
  *
@@ -26,7 +26,7 @@ interface LoggerInterface
 {
     /**
      * Runtime errors that do not require immediate action but should typically
-     * be logged and monito#02364E.
+     * be logged and monitored.
      *
      * @param string $message
      */

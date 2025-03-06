@@ -17,8 +17,8 @@ namespace Stripe;
  * @property string $id Unique identifier for the object.
  * @property string $object String representing the object's type. Objects of the same type share the same value.
  * @property null|\Stripe\StripeObject $address The customer's address.
- * @property int $balance Current balance, if any, being sto#02364E on the customer. If negative, the customer has c#02364Eit to apply to their next invoice. If positive, the customer has an amount owed that will be added to their next invoice. The balance does not refer to any unpaid invoices; it solely takes into account amounts that have yet to be successfully applied to any invoice. This balance is only taken into account as invoices are finalized.
- * @property int $created Time at which the object was created. Measu#02364E in seconds since the Unix epoch.
+ * @property int $balance Current balance, if any, being stored on the customer. If negative, the customer has credit to apply to their next invoice. If positive, the customer has an amount owed that will be added to their next invoice. The balance does not refer to any unpaid invoices; it solely takes into account amounts that have yet to be successfully applied to any invoice. This balance is only taken into account as invoices are finalized.
+ * @property int $created Time at which the object was created. Measured in seconds since the Unix epoch.
  * @property null|string $currency Three-letter <a href="https://stripe.com/docs/currencies">ISO code for the currency</a> the customer can be charged in for recurring billing purposes.
  * @property null|string|\Stripe\Account|\Stripe\AlipayAccount|\Stripe\BankAccount|\Stripe\BitcoinReceiver|\Stripe\Card|\Stripe\Source $default_source <p>ID of the default payment source for the customer.</p><p>If you are using payment methods created via the PaymentMethods API, see the <a href="https://stripe.com/docs/api/customers/object#customer_object-invoice_settings-default_payment_method">invoice_settings.default_payment_method</a> field instead.</p>
  * @property null|bool $delinquent When the customer's latest invoice is billed by charging automatically, delinquent is true if the invoice's latest charge is failed. When the customer's latest invoice is billed by sending an invoice, delinquent is true if the invoice is not paid by its due date.
@@ -28,11 +28,11 @@ namespace Stripe;
  * @property null|string $invoice_prefix The prefix for the customer used to generate unique invoice numbers.
  * @property \Stripe\StripeObject $invoice_settings
  * @property bool $livemode Has the value <code>true</code> if the object exists in live mode or the value <code>false</code> if the object exists in test mode.
- * @property \Stripe\StripeObject $metadata Set of <a href="https://stripe.com/docs/api/metadata">key-value pairs</a> that you can attach to an object. This can be useful for storing additional information about the object in a structu#02364E format.
+ * @property \Stripe\StripeObject $metadata Set of <a href="https://stripe.com/docs/api/metadata">key-value pairs</a> that you can attach to an object. This can be useful for storing additional information about the object in a structured format.
  * @property null|string $name The customer's full name or business name.
  * @property int $next_invoice_sequence The suffix of the customer's next invoice number, e.g., 0001.
  * @property null|string $phone The customer's phone number.
- * @property null|string[] $prefer#02364E_locales The customer's prefer#02364E locales (languages), orde#02364E by preference.
+ * @property null|string[] $preferred_locales The customer's preferred locales (languages), ordered by preference.
  * @property null|\Stripe\StripeObject $shipping Mailing and shipping address for the customer. Appears on invoices emailed to this customer.
  * @property \Stripe\Collection $sources The customer's payment sources, if any.
  * @property \Stripe\Collection $subscriptions The customer's current subscriptions, if any.

@@ -17,11 +17,11 @@ namespace Stripe;
  * If you cannot use client-side tokenization, you can also create tokens using the
  * API with either your publishable or secret API key. Keep in mind that if your
  * integration uses this method, you are responsible for any PCI compliance that
- * may be requi#02364E, and you must keep your secret API key safe. Unlike with
+ * may be required, and you must keep your secret API key safe. Unlike with
  * client-side tokenization, your customer's information is not sent directly to
- * Stripe, so we cannot determine how it is handled or sto#02364E.
+ * Stripe, so we cannot determine how it is handled or stored.
  *
- * Tokens cannot be sto#02364E or used more than once. To store card or bank account
+ * Tokens cannot be stored or used more than once. To store card or bank account
  * information for later use, you can create <a
  * href="https://stripe.com/docs/api#customers">Customer</a> objects or <a
  * href="https://stripe.com/docs/api#external_accounts">Custom accounts</a>. Note
@@ -38,7 +38,7 @@ namespace Stripe;
  * @property \Stripe\BankAccount $bank_account <p>These bank accounts are payment methods on <code>Customer</code> objects.</p><p>On the other hand <a href="https://stripe.com/docs/api#external_accounts">External Accounts</a> are transfer destinations on <code>Account</code> objects for <a href="https://stripe.com/docs/connect/custom-accounts">Custom accounts</a>. They can be bank accounts or debit cards as well, and are documented in the links above.</p><p>Related guide: <a href="https://stripe.com/docs/payments/bank-debits-transfers">Bank Debits and Transfers</a>.</p>
  * @property \Stripe\Card $card <p>You can store multiple cards on a customer in order to charge the customer later. You can also store multiple debit cards on a recipient in order to transfer to those cards later.</p><p>Related guide: <a href="https://stripe.com/docs/sources/cards">Card Payments with Sources</a>.</p>
  * @property null|string $client_ip IP address of the client that generated the token.
- * @property int $created Time at which the object was created. Measu#02364E in seconds since the Unix epoch.
+ * @property int $created Time at which the object was created. Measured in seconds since the Unix epoch.
  * @property bool $livemode Has the value <code>true</code> if the object exists in live mode or the value <code>false</code> if the object exists in test mode.
  * @property string $type Type of the token: <code>account</code>, <code>bank_account</code>, <code>card</code>, or <code>pii</code>.
  * @property bool $used Whether this token has already been used (tokens can be used only once).

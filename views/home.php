@@ -180,7 +180,7 @@
                 <div id="inner-row-1" class="row">
                     <div class="col-md-6">
                         <div class="text-wrapper">
-                            <h3>Trademark Registration & Renewals</h3>
+                            <h3>Trademark <span>Registration & Renewals</span></h3>
                             <p>Whether you're registering a new trademark or renewing an existing one, Trademark Advisor is your go-to solution. With a team of skilled trademark attorneys and a decade of experience, we specialize in seamless USPTO trademark filings.</p>
                         </div>
                     </div>
@@ -198,7 +198,7 @@
                     </div>
                     <div class="col-md-6">
                         <div class="text-wrapper">
-                            <h3>Trademark Search</h3>
+                            <h3>Trademark <span>Search</span></h3>
                             <p>A thorough trademark search is crucial for a successful registration. Before submitting your application to the USPTO, we conduct a comprehensive search for potential conflicts. If any issues are detected, we address them promptly to prevent delays in your application process.</p>
                         </div>
                     </div>
@@ -206,7 +206,7 @@
                 <div id="inner-row-3" class="row" >
                     <div class="col-md-6">
                         <div class="text-wrapper">
-                            <h3>Comprehensive Documentation Solutions</h3>
+                            <h3>Comprehensive <span>Documentation Solutions</span></h3>
                             <p>Filing a USPTO trademark involves various legal documents, including the Trademark Statement of Use (SOU) and Office Action Response. We handle all these requirements on your behalf, ensuring a smooth and successful trademark registration process.</p>
                         </div>
                     </div>

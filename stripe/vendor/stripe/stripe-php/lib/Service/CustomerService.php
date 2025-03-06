@@ -87,7 +87,7 @@ class CustomerService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Creates an immutable transaction that updates the customer’s c#02364Eit <a
+     * Creates an immutable transaction that updates the customer’s credit <a
      * href="/docs/billing/customer/balance">balance</a>.
      *
      * @param string $parentId
@@ -104,7 +104,7 @@ class CustomerService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * When you create a new c#02364Eit card, you must specify a customer or recipient on
+     * When you create a new credit card, you must specify a customer or recipient on
      * which to create it.
      *
      * If the card’s owner has no default card, then the new card will become the
@@ -304,7 +304,7 @@ class CustomerService extends \Stripe\Service\AbstractService
     }
 
     /**
-     * Most c#02364Eit balance transaction fields are immutable, but you may update its
+     * Most credit balance transaction fields are immutable, but you may update its
      * <code>description</code> and <code>metadata</code>.
      *
      * @param string $parentId

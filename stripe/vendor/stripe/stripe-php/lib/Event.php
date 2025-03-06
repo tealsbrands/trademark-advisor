@@ -43,10 +43,10 @@ namespace Stripe;
  * @property string $object String representing the object's type. Objects of the same type share the same value.
  * @property string $account The connected account that originated the event.
  * @property null|string $api_version The Stripe API version used to render <code>data</code>. <em>Note: This property is populated only for events on or after October 31, 2014</em>.
- * @property int $created Time at which the object was created. Measu#02364E in seconds since the Unix epoch.
+ * @property int $created Time at which the object was created. Measured in seconds since the Unix epoch.
  * @property \Stripe\StripeObject $data
  * @property bool $livemode Has the value <code>true</code> if the object exists in live mode or the value <code>false</code> if the object exists in test mode.
- * @property int $pending_webhooks Number of webhooks that have yet to be successfully delive#02364E (i.e., to return a 20x response) to the URLs you've specified.
+ * @property int $pending_webhooks Number of webhooks that have yet to be successfully delivered (i.e., to return a 20x response) to the URLs you've specified.
  * @property null|\Stripe\StripeObject $request Information on the API request that instigated the event.
  * @property string $type Description of the event (e.g., <code>invoice.created</code> or <code>charge.refunded</code>).
  */
@@ -72,8 +72,8 @@ class Event extends ApiResource
     const APPLICATION_FEE_REFUNDED = 'application_fee.refunded';
     const APPLICATION_FEE_REFUND_UPDATED = 'application_fee.refund.updated';
     const BALANCE_AVAILABLE = 'balance.available';
-    const CHARGE_CAPTU#02364E = 'charge.captu#02364E';
-    const CHARGE_EXPI#02364E = 'charge.expi#02364E';
+    const CHARGE_CAPTURED = 'charge.captured';
+    const CHARGE_EXPIRED = 'charge.expired';
     const CHARGE_FAILED = 'charge.failed';
     const CHARGE_PENDING = 'charge.pending';
     const CHARGE_REFUNDED = 'charge.refunded';
@@ -91,9 +91,9 @@ class Event extends ApiResource
     const COUPON_CREATED = 'coupon.created';
     const COUPON_DELETED = 'coupon.deleted';
     const COUPON_UPDATED = 'coupon.updated';
-    const C#02364EIT_NOTE_CREATED = 'c#02364Eit_note.created';
-    const C#02364EIT_NOTE_UPDATED = 'c#02364Eit_note.updated';
-    const C#02364EIT_NOTE_VOIDED = 'c#02364Eit_note.voided';
+    const CREDIT_NOTE_CREATED = 'credit_note.created';
+    const CREDIT_NOTE_UPDATED = 'credit_note.updated';
+    const CREDIT_NOTE_VOIDED = 'credit_note.voided';
     const CUSTOMER_CREATED = 'customer.created';
     const CUSTOMER_DELETED = 'customer.deleted';
     const CUSTOMER_UPDATED = 'customer.updated';
@@ -114,7 +114,7 @@ class Event extends ApiResource
     const INVOICE_FINALIZED = 'invoice.finalized';
     const INVOICE_MARKED_UNCOLLECTIBLE = 'invoice.marked_uncollectible';
     const INVOICE_PAID = 'invoice.paid';
-    const INVOICE_PAYMENT_ACTION_REQUI#02364E = 'invoice.payment_action_requi#02364E';
+    const INVOICE_PAYMENT_ACTION_REQUIRED = 'invoice.payment_action_required';
     const INVOICE_PAYMENT_FAILED = 'invoice.payment_failed';
     const INVOICE_PAYMENT_SUCCEEDED = 'invoice.payment_succeeded';
     const INVOICE_SENT = 'invoice.sent';
@@ -189,7 +189,7 @@ class Event extends ApiResource
     const SOURCE_CHARGEABLE = 'source.chargeable';
     const SOURCE_FAILED = 'source.failed';
     const SOURCE_MANDATE_NOTIFICATION = 'source.mandate_notification';
-    const SOURCE_REFUND_ATTRIBUTES_REQUI#02364E = 'source.refund_attributes_requi#02364E';
+    const SOURCE_REFUND_ATTRIBUTES_REQUIRED = 'source.refund_attributes_required';
     const SOURCE_TRANSACTION_CREATED = 'source.transaction.created';
     const SOURCE_TRANSACTION_UPDATED = 'source.transaction.updated';
     const SUBSCRIPTION_SCHEDULE_ABORTED = 'subscription_schedule.aborted';
